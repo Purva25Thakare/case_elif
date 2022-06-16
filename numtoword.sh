@@ -1,4 +1,4 @@
-read -p "Enter the number:" $num
+num=$(( RANDOM%10 ))
 	if(( $num==0 ))
 then
 	echo "Number is Zero"
